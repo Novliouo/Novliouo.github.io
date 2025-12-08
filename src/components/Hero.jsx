@@ -33,8 +33,8 @@ function Hero() {
                     </div>
                     <div className="meta-link">
                         <a className="meta-linkitem"
-                             href="https://lucy-ling.com"
-                             target="_blank"
+                           href="https://lucy-ling.com"
+                           target="_blank"
                            rel="noopener noreferrer"
                         >Portfolio</a>
                         <a
@@ -59,6 +59,7 @@ function Hero() {
                             </a>
                         ))}
                     </div>
+                    <div className="small-text">Last Updated Date: 2025/12/08</div>
                 </div>
             </div>
         </div>

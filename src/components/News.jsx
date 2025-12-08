@@ -51,7 +51,8 @@ function News() {
 
     return (
         <div className="News" id="news">
-            <div className="card-title">News</div>
+            <div className="card-title">News
+            </div>
             <ul className="news-list">
                 {news.map((news) => (
                     <li>

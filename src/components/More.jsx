@@ -7,8 +7,7 @@ export default function More() {
         <div className="card" id="more" style={{marginTop:"1rem"}}>
             <div className="card-title">Something more...</div>
             <div className="more">
-                I make, I code, I design. Whether through circuits, interfaces, or poetic algorithms, I seek harmony
-                between hand, mind, and machine.
+                I'm working on my portfolio website...Hope I can do better this time.
             </div>
             <div className="more">
                 {/*(I will write more later...)*/}
