@@ -37,33 +37,13 @@ import vistoria_img from "../assets/paper_image/vistoria1.png";
 import lifeeling_img from "../assets/paper_image/lifeeling.png";
 import carbon_img from "../assets/paper_image/carbon.png";
 
+
+import clay_video from "../assets/video/clay.mp4";
+
 const MY_NAME = "Long Ling";
 
 const publications = [
 
-    {
-        title:
-            "\"The answer is already in my mind\": How People Tell Their Own Fortunes Using GenAI for Personal Confirmation and Expression",
-        abstract: "People want to predict their futures with divination, which frequently guides their actions with a spiritual rationale, providing comfort for certain outcomes, or amusement for unexpected predictions. Seers often use technologies like tarot cards and Ouija boards to engage people during the fortune-telling process, but recent advances in natural-language-based systems have provided alternative means to interact with data-sources for spiritual prediction-making. To understand the ways people read and express their own futures with GenAI tools, we conducted a workshop (N=44) where participants probed GenAI tools for tarot-based divination, then expressed that future textually and visually using GenAI. We found that participants co-constructed spiritual belief with GenAI for self-reflection, paying selective attention to self-confirming predictions. They then co-created future-self narratives by strategically prompting for visual representations based on desired outcomes. This work shows how people actively negotiate meaning with technology rather than passively accept predictions in applications related to spiritual aims.",
-        authors: [
-            {name: "Long Ling", link: "https://lucy-ling.com"},
-            {name: "Qi Gong", link: "https://scholar.google.ch/citations?hl=en&user=UmuqMoMAAAAJ"},
-            {name: "Xiyu Zheng"},
-            {name: "Ray LC", link: "https://raylc.org/", role: "advisor"},
-        ],
-        venues: [
-            {name: "CHI '26", type: "conference"},
-        ],
-        links: {
-            // acm: "https://dl.acm.org/doi/abs/10.1145/3677102",
-            pdf: tarot,
-            // arxiv: "https://arxiv.org/abs/2508.12333",
-            // video: "https://dl.acm.org/doi/suppl/10.1145/3677102/suppl_file/v8chip337.mp4",
-            // msg: "🚧 Video coming soon...",
-        },
-        image: tarot_img,
-        tags: ["Selected","In Submission","Human-AI Collaboration", "Cultural & Philosophical","Understanding People"]
-    },
     {
         title:
             "Vistoria: A Multimodal System to Support Fictional Story Writing through Instrumental Text-Image Co-Editing",
@@ -90,35 +70,9 @@ const publications = [
             demo:"https://www.youtube.com/watch?v=JWaj2VJG5lU"
         },
         image: vistoria_img,
-        tags: ["Selected","In Submission","Human-AI Collaboration","Creativity Support", "Multimodal Interaction","System"]
+        tags: ["Selected","Human-AI Collaboration","Creativity Support", "Multimodal Interaction","System"]
     },
-    {
-        title:
-            "TunTun Diary: Exploring AI-Generated Storytelling and Virtual Companionship for Nightmare Relief",
-        abstract: "Nightmares disrupt sleep and heighten daytime anxiety, yet therapeutic support is often hard to access due to limited clinician availability, cost, and clinical framing. We propose TunTun Diary, a mobile game in which an alien puppy named TunTun “eats” players’ nightmares and returns gentle, comic-style retellings. The system uses generative AI to reinterpret users' nightmare descriptions into positive narratives. Through simple text-based dream input and playful pet interactions, players form an emotional bond with TunTun as a safe and supportive companion for coping with negative dreams. In a preliminary deployment with 20 young adults, participants reported emotional relief and increased comfort after engaging with TunTun’s transformed dream comics, often describing the experience as both soothing and playful. These findings highlight how integrating therapy-inspired reframing with interactive storytelling and virtual companionship can lower barriers to everyday emotional support. By illustrating a novel application of AI-based visual storytelling in game contexts, TunTun Diary opens opportunities for future research at the intersection of visual computing, affective interaction, and game design.",
-        authors: [
-            {name:"Zixin Wang",link: "https://zixin-wang.netlify.app/"},
-            {name:"Shan Luo",link: "https://luoshan-home.vercel.app/index.html"},
-            {name:"Siyu Tian"},
-            {name: "Yunxi Cai"},
-            {name: "Long Ling", link: "https://lucy-ling.com"},
-            {name: "Muhan Xu"},
-            {name: "Jiaxing Yu"},
-            {name: "Guanting Lu"},
-            {name:"Jiajing Zhu"},
-            {name: "Liping Luo"}
-        ],
-        venues: [
-            {name: "Siggraph Asia '25 Poster", type: "conference"}
-        ],
-        links: {
-            acm: "https://dl.acm.org/doi/abs/10.1145/3757374.3771484",
-            pdf: tuntun,
-            poster:tuntun_poster
-        },
-        image:tuntun_img,
-        tags: ["Human-AI Collaboration","Affective Computing","System"]
-    },
+
     {
         title:
             "ClayScape: GenAI-Supported Design to Clay 3D Printing in Fabricating Chinese Textured Ceramics",
@@ -137,7 +91,7 @@ const publications = [
             // acm: "https://dl.acm.org/doi/abs/10.1145/3677102",
             pdf: clay,
             // arxiv: "https://arxiv.org/abs/2508.12333",
-            // video: "https://dl.acm.org/doi/suppl/10.1145/3677102/suppl_file/v8chip337.mp4",
+            video: clay_video,
             // msg: "🚧 Video coming soon...",
         },
         image: clay_img,
@@ -165,6 +119,34 @@ const publications = [
         },
         image: chinese_img,
         tags: ["In Submission","Human-AI Collaboration", "Cultural & Philosophical","Understanding People"]
+    },
+
+    {
+        title:
+            "TunTun Diary: Exploring AI-Generated Storytelling and Virtual Companionship for Nightmare Relief",
+        abstract: "Nightmares disrupt sleep and heighten daytime anxiety, yet therapeutic support is often hard to access due to limited clinician availability, cost, and clinical framing. We propose TunTun Diary, a mobile game in which an alien puppy named TunTun “eats” players’ nightmares and returns gentle, comic-style retellings. The system uses generative AI to reinterpret users' nightmare descriptions into positive narratives. Through simple text-based dream input and playful pet interactions, players form an emotional bond with TunTun as a safe and supportive companion for coping with negative dreams. In a preliminary deployment with 20 young adults, participants reported emotional relief and increased comfort after engaging with TunTun’s transformed dream comics, often describing the experience as both soothing and playful. These findings highlight how integrating therapy-inspired reframing with interactive storytelling and virtual companionship can lower barriers to everyday emotional support. By illustrating a novel application of AI-based visual storytelling in game contexts, TunTun Diary opens opportunities for future research at the intersection of visual computing, affective interaction, and game design.",
+        authors: [
+            {name:"Zixin Wang",link: "https://zixin-wang.netlify.app/"},
+            {name:"Shan Luo",link: "https://luoshan-home.vercel.app/index.html"},
+            {name:"Siyu Tian"},
+            {name: "Yunxi Cai"},
+            {name: "Long Ling", link: "https://lucy-ling.com"},
+            {name: "Muhan Xu"},
+            {name: "Jiaxing Yu"},
+            {name: "Guanting Lu"},
+            {name:"Jiajing Zhu"},
+            {name: "Liping Luo"}
+        ],
+        venues: [
+            {name: "Siggraph Asia '25 Poster", type: "conference"}
+        ],
+        links: {
+            acm: "https://dl.acm.org/doi/abs/10.1145/3757374.3771484",
+            pdf: tuntun,
+            poster:tuntun_poster
+        },
+        image:tuntun_img,
+        tags: ["Human-AI Collaboration","Affective Computing","System"]
     },
 
     {
@@ -331,6 +313,29 @@ const publications = [
         tags: ["Multimodal Interaction"]
     },
 
+    {
+        title:
+            "\"The answer is already in my mind\": How People Tell Their Own Fortunes Using GenAI for Personal Confirmation and Expression",
+        abstract: "People want to predict their futures with divination, which frequently guides their actions with a spiritual rationale, providing comfort for certain outcomes, or amusement for unexpected predictions. Seers often use technologies like tarot cards and Ouija boards to engage people during the fortune-telling process, but recent advances in natural-language-based systems have provided alternative means to interact with data-sources for spiritual prediction-making. To understand the ways people read and express their own futures with GenAI tools, we conducted a workshop (N=44) where participants probed GenAI tools for tarot-based divination, then expressed that future textually and visually using GenAI. We found that participants co-constructed spiritual belief with GenAI for self-reflection, paying selective attention to self-confirming predictions. They then co-created future-self narratives by strategically prompting for visual representations based on desired outcomes. This work shows how people actively negotiate meaning with technology rather than passively accept predictions in applications related to spiritual aims.",
+        authors: [
+            {name: "Long Ling", link: "https://lucy-ling.com"},
+            {name: "Qi Gong", link: "https://scholar.google.ch/citations?hl=en&user=UmuqMoMAAAAJ"},
+            {name: "Xiyu Zheng"},
+            {name: "Ray LC", link: "https://raylc.org/", role: "advisor"},
+        ],
+        venues: [
+            {name: "Work In Progress", type: "wip"},
+        ],
+        links: {
+            // acm: "https://dl.acm.org/doi/abs/10.1145/3677102",
+            pdf: tarot,
+            // arxiv: "https://arxiv.org/abs/2508.12333",
+            // video: "https://dl.acm.org/doi/suppl/10.1145/3677102/suppl_file/v8chip337.mp4",
+            // msg: "🚧 Video coming soon...",
+        },
+        image: tarot_img,
+        tags: ["Selected","In Submission","Human-AI Collaboration", "Cultural & Philosophical","Understanding People"]
+    },
     {
         title:
             "Somewhere in between the Latent Space: Theoretical and Technological Perspectives on the Status of AI Art",

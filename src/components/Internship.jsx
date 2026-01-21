@@ -15,6 +15,20 @@ export default function Internship() {
         {
             type: "Work",
             organization: {
+                name: "MSRA",
+                link: "https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/",
+                logo: micro
+            },
+            period: "2026.02 - present",
+            role: "Research intern.",
+            location: "Shanghai, China",
+            projects: [
+                { name: <span><div style={{color:"#acacac",fontStyle:"italic"}}>Focus on Human-AI interaction now...</div></span>, roles: [] },
+            ]
+        },
+        {
+            type: "Work",
+            organization: {
                 name: "Ant Group Design",
                 link: "https://www.antgroup.com/en",
                 logo: ant

@@ -4,8 +4,20 @@ import "../css/All.css"
 function News() {
     const news =[
         {
+            time: "2026.01",
+            content: "I started an internship at Microsoft Research Asia (MSRA)."
+        },
+        {
+            time: "2026.01",
+            content: "The co-first authored Vistoria was accepted to CHI '26! I’m looking forward to presenting our work in Barcelona and catch up with friends there~"
+        },
+        {
+            time:"2026.01",
+            content:"I had the opportunity to serve as a reviewer for IUI '26.",
+        },
+        {
             time:"2025.11",
-            content:"I served as a reviewer for TEI '26.",
+            content:"I had the opportunity to serve as a reviewer for TEI '26.",
         },
         {
             time:"2025.11",
