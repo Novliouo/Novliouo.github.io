@@ -5,35 +5,46 @@ function About() {
     return (
         <div className="about" id="about">
             <div className="intro-text">
-                Hi, I'm <strong>Long Ling</strong> (凌珑, aka Lucy Ling), an <strong>Interaction
-                Design</strong> master's student in <a href="https://tjdi.tongji.edu.cn/?lang=en" target="_blank"
-                                                       rel="noopener noreferrer">
-                College of Design and Innovation</a> at <a href="https://en.tongji.edu.cn" target="_blank"
-                                                           rel="noopener noreferrer">
-                Tongji University
-            </a>, with a bachelor's degree in <strong>Computer Science and Technology</strong>.
-                I am fortunate to be advised by <a href="https://www.nancao.org/" target="_blank"
-                                                   rel="noopener noreferrer">
-                Prof. Nan Cao
-            </a> at the <a href="https://idvxlab.com/" target="_blank" rel="noopener noreferrer">
-                Intelligent Big Data Visualization Lab
-            </a>, and conducting research under the supervision of <a href="https://raylc.org/" target="_blank"
-                                                                      rel="noopener noreferrer">
-                Prof. Ray LC
-            </a> at <a href="https://www.cityu.edu.hk/" target="_blank" rel="noopener noreferrer">
-                City University of Hong Kong
-            </a> and <a href="https://toby.li/" target="_blank" rel="noopener noreferrer">
-                Prof. Toby Jia-Jun Li
-            </a> at <a href="https://www.nd.edu/" target="_blank" rel="noopener noreferrer">
-                University of Notre Dame.
-            </a>
-                <br/><br/>
-                My research interests focus on <strong>human–AI interaction for supporting human creativity</strong> to
-                achieve better cognitive support and creative collaboration, by designing interaction forms and
-                generating contents that align with human intention, emotion, and cognition.
+                Hi, I'm <strong>Yufan Wu</strong>（吴雨凡, aka Yvonne Wu）, an{" "}
+                <strong>undergraduate law student</strong> at{" "}
+                <a
+                    href="https://www.ouc.edu.cn/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Ocean University of China
+                </a>
+                .
 
+                <br /><br />
 
-                <div className="callout">I am applying to PhD programs and remain open to any research assistant (RA) or collaboration opportunities. Please feel free to contact me about any potential openings <strong>: )</strong></div>
+                I am a quiet observer, a slow thinker, and someone who is
+                easily moved by <strong>concrete lives</strong>. I like staying
+                with small emotions, ordinary encounters, and the overlooked
+                corners of everyday life. For a long time, I thought softness
+                meant being unclear or unmemorable. Now I see it as my way of
+                understanding the world.
+
+                <br /><br />
+
+                This website is a small room for my{" "}
+                <strong>thoughts</strong>, <strong>photographs</strong>, and
+                fragments of life. Here, I write about what I read, what I
+                notice, and what continues to trouble or move me. I also use
+                photography to keep moments that might otherwise disappear: a
+                passing street scene, a quiet face, a patch of light, or an
+                ordinary afternoon.
+
+                <br /><br />
+
+                I hope this place can hold both my legal reflections and my
+                personal way of seeing. To me, law begins not only from rules
+                and cases, but also from the ability to notice people, listen to
+                stories, and care about lives that are often left unseen.
+
+                <div className="callout">
+                    Welcome to my little corner of the internet 🌷
+                </div>
             </div>
         </div>
     );

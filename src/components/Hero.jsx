@@ -1,18 +1,13 @@
 import React from 'react';
 import face from '../assets/face.png';
-import "../css/Hero.css"
-import { FaGithub, FaTwitter, FaLinkedin } from "react-icons/fa";
+import "../css/Hero.css";
+import { FaGithub } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
-import { FaGoogleScholar,FaSquareXTwitter } from "react-icons/fa6";
-import cv from "../assets/longling_cv.pdf"
 
 function Hero() {
     const links = [
-        { icon: <MdEmail />, url: "mailto:lucyling0224@gmail.com" },
-        { icon: <FaGithub />, url: "https://github.com/LucyLing24" },
-        { icon: <FaGoogleScholar />, url: "https://scholar.google.com/citations?user=YOUR_ID&user=wsRlBO4AAAAJ" },
-        { icon: <FaSquareXTwitter />, url: "https://x.com/LucyLing24" },
-        { icon: <FaLinkedin />, url: "https://linkedin.com/in/lucyling24" },
+        { icon: <MdEmail />, url: "mailto:novliouo@qq.com" },
+        { icon: <FaGithub />, url: "https://github.com/Novliouo" },
     ];
 
     return (
@@ -23,29 +18,34 @@ function Hero() {
                     alt="Profile"
                     className="profile-pic"
                 />
+
                 <div className="hero-meta">
-                    <div className="meta-name">Long Ling 凌珑</div>
-                    Master of Interaction Design
+                    <div className="meta-name">Yufan Wu 吴雨凡</div>
+
+                    <div>Undergraduate Law Student</div>
+
                     <div className="meta-description">
-                        <div>🔮 HAI Researcher</div>
-                        <div>👩🏻‍💻 Full-stack Developer</div>
-                        <div>🧚🏻‍♀️ UX Designer</div>
+                        <div>🔮 Law </div>
+                        <div>🌿 Thoughts & Meditations</div>
+                        <div>📷 Photography & Visual Stories</div>
                     </div>
+
                     <div className="meta-link">
-                        <a className="meta-linkitem"
-                           href="https://lucy-ling.com"
-                           target="_blank"
-                           rel="noopener noreferrer"
-                        >Portfolio</a>
                         <a
                             className="meta-linkitem"
-                            href={cv}
-                            target="_blank"
-                            rel="noopener noreferrer"
+                            href="#publications"
                         >
-                            CV
+                            Thoughts
+                        </a>
+
+                        <a
+                            className="meta-linkitem"
+                            href="#internship"
+                        >
+                            Photography
                         </a>
                     </div>
+
                     <div className="contact-small">
                         {links.map((item, index) => (
                             <a
@@ -59,7 +59,10 @@ function Hero() {
                             </a>
                         ))}
                     </div>
-                    <div className="small-text">Last Updated Date: 2026/03/20</div>
+
+                    <div className="small-text">
+                        Last Updated Date: 2026/06/09
+                    </div>
                 </div>
             </div>
         </div>

@@ -4,9 +4,9 @@ import logo from "../assets/logo.png";
 
 const NAV = [
     { id: "about", label: "About" },
-    { id: "news", label: "News" },
-    { id: "publications", label: "Publications" },
-    { id: "internship", label: "Internship" },
+    { id: "news", label: "Notes" },
+    { id: "publications", label: "Thoughts" },
+    { id: "internship", label: "Photography" },
     { id: "education", label: "Education" },
     { id: "awards", label: "Awards" },
     { id: "more", label: "More" },
@@ -25,8 +25,12 @@ export default function Header() {
         <header className={`header-wrapper ${menuOpen ? "menu-open" : ""}`}>
             <div className="header-container">
                 <div className="header-name">
-                    <img src={logo} alt="logo" style={{ width: "36px", marginRight: 12 }} />
-                    <div className="name-main">Long L<span className="fancy-i">i</span>ng</div>
+                    <img
+                        src={logo}
+                        alt="logo"
+                        style={{ width: "36px", marginRight: 12 }}
+                    />
+                    <div className="name-main">Yufan Wu</div>
                 </div>
 
                 {/* 汉堡按钮 */}
