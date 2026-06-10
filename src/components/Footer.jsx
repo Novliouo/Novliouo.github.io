@@ -4,8 +4,7 @@ function Footer() {
     return (
         <footer className="site-footer">
             <div className="footer-left">
-                © {new Date().getFullYear()} Yufan Wu · Thoughts & Photography
-            </div>
+                © {new Date().getFullYear()} WYF丨Little Cosmos · Tiny Reveries
         </footer>
     );
 }
