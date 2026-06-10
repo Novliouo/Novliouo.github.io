@@ -30,7 +30,7 @@ export default function Header() {
                         alt="logo"
                         style={{ width: "36px", marginRight: 12 }}
                     />
-                    <div className="name-main">Yufan Wu</div>
+                    <div className="name-main">WYF丨Little Cosmos</div>
                 </div>
 
                 {/* 汉堡按钮 */}
